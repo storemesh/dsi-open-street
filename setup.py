@@ -9,6 +9,8 @@ with open("README.md", "r", encoding="utf-8") as f:
 setup(
     name='dsi-walking-map',
     version='0.1.0',
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
 
     url='https://github.com/storemesh/dsi-open-street/invitations', 
     author='DigitalStoreMesh Co.,Ltd',
