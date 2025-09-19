@@ -22,7 +22,7 @@ A Python library to fetch, process, and visualize walkable city data from OpenSt
 You can install the library directly from the GitHub repository using `pip`.
 
 ```python
-pip install git+[https://github.com/storemesh/dsi-open-street.git](https://github.com/storemesh/dsi-open-street.git)
+!pip install git+https://github.com/storemesh/dsi-open-street.git
 ```
 ---
 ## Usage Example
