@@ -21,8 +21,6 @@ setup(
     long_description_content_type='text/markdown',
     license='MIT License',
     
-    packages=find_packages(),
-    
     include_package_data=True,
     package_data={
         package: ['assets/*.png'],
